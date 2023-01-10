@@ -1,0 +1,14 @@
+{
+    "/js/admin-app.js": "/js/admin-app.js",
+    "/js/app.js": "/js/app.js",
+    "/css/invoice.css": "/css/invoice.css",
+    "/css/app.css": "/css/app.css",
+    "/frontend-assets/css/new-style.css": "/frontend-assets/css/new-style.css",
+    "/frontend-assets/css/slick.css": "/frontend-assets/css/slick.css",
+    "/js/global.js": "/js/global.js",
+    "/js/user-app.js": "/js/user-app.js",
+    "/frontend-assets/css/new-style.min.css": "/frontend-assets/css/new-style.min.css",
+    "/frontend-assets/css/slick.min.css": "/frontend-assets/css/slick.min.css",
+    "/js/global.min.js": "/js/global.min.js",
+    "/js/app.min.js": "/js/app.min.js"
+}

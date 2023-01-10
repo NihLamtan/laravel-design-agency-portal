@@ -1,0 +1,69 @@
+#brief-header { position: relative; min-height: 50px;margin-top: 50px; }
+#brief-header > h1 { font-weight: bold;display: inline-block; position: absolute;bottom: 20px;margin: 0; }
+#brief-header > h5 { display: inline-block;font-weight: bold;position: absolute;bottom: 20px;right: 10px;margin: 0; }
+.section { border: 2px solid #ccc; margin-bottom: 30px;padding: 40px; }
+.section > h3 { font-weight: bold;margin-bottom: 5px; }
+h3.basic, .responsive h3 { font-size: 20px;font-weight: 600 !important;margin-bottom: 10px; }
+h1.basic, h2.basic, h3.basic, h4.basic, h5.basic, h6.basic, .responsive h1, .responsive h2, .responsive h3, .responsive h4, .responsive h5, .responsive h6 { margin-top: 0;font-family: 'MarkPro',sans-serif;font-weight: 300;font-weight: normal;color: #00111a;line-height: 1.3em; }  
+.section h4 { margin-bottom: 0;font-size: 16px; }
+#logo-type-tiles { margin-top: 30px;margin-bottom: 40px; }
+.logo-type-tile { display: inline-block;text-align: center;vertical-align: top;width: 265px; }
+.logo-type-tile:not(:last-child) { margin-right: 40px; }
+.logo-type-tile:not(:last-child) { margin-right: 40px; }
+.logo-type-tile label { display: inline-block;cursor: pointer; }
+.logo-type-tile img { display: inline-block;border: 5px solid #f1f1f1;width: 100%;height: 226px;margin-bottom: 20px;pointer-events: none; }
+input.logo-type:checked + label img { border: 5px solid #e1106f; }
+.logo-type-tile h3 { margin-bottom: 10px; }
+.logo-type-tile .logo-type-name, .logo-type-tile .logo-type-description { display: block; }
+.logo-type-tile h5 { margin-bottom: 0; }
+.bold { font-weight: bold; }
+.stylized-input, .stylized-textarea, .stylized-contenteditable-wrapper div[contenteditable=true] { box-sizing: border-box;position: relative;min-height: 40px;padding: 12px 10px;margin: 0;font-family: Arial,Helvetica,sans-serif;font-size: 16px;color: #494b4d;vertical-align: middle;background-clip: padding-box;outline: 0 none;border: 1px solid #c8cbcc;border-radius: 3px; }
+.stylized-textarea, .responsive textarea { box-sizing: border-box;width: auto;max-width: 100%; }
+#logo-colors { padding-right: 0;padding-left: 35px; }
+#logo-color-tiles { margin-top: 30px; }
+.logo-color-tile { display: inline-block; border: 5px solid #f1f1f1; text-align: center; width: 256px; margin-bottom: 30px; margin-right: 15px;cursor: pointer; }
+.color-samples { display: block;height: 96px;font-size: 0;margin: 0;padding: 0; }
+.color-samples > .color-sample { display: inline-block;height: 100%;width: 41px;margin: 0;padding: 0; }
+.logo-color-bundle { display: block;margin: 30px;margin-top: 30px; }
+.logo-color-tile h4 { font-weight: bold; margin-bottom: 5px; }
+input.logo-color:checked + .logo-color-tile { border: 5px solid #e1106f; }
+#logo-inspiration-file-upload { margin: 20px 0 20px 0; }
+#company-information input, #company-information .stylized-textarea { width: 100%; }
+#company-information h5 { margin-top: 30px;margin-bottom: 10px; }
+#company-information label { display: block; }
+.textbutton.textbutton-skin-promo-bright-blue { background: #e1106f;border: none;color: #fff;padding: 15px 25px;text-transform: uppercase;margin-bottom: 70px;font-weight: 600;letter-spacing: 0.5px; }
+.info-field { width: 31.5%;display: inline-block;margin-right: 25px; }
+.info-field:last-child { margin-right: 0; }
+
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 767px) { 
+	.section { padding: 20px; }
+	.logo-style-tile { width: 100%; }
+	.logo-color-tile { width: 275px; }
+	.info-field { width: 100%; }
+	.logo-type-tile:not(:last-child) { margin-right: 0; }
+	.logo-type-tile { width: 300px; }
+	#brief-header > h1 { font-size: 26px; }
+	.logo-type-tile label { max-width: 85%;margin: 10px 0; }
+	.logo-style-tile img { height: 210px; }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .logo-type-tile { width: 255px; }
+	.info-field { width: 30.5% }
+
+}
+
+@media only screen and (width: 768px) {
+   	.logo-type-tile { width: 185px; }
+	.logo-type-tile img { height: 176px; }
+	.logo-style-tile { width: 47%; }
+	.logo-style-tile img { height: 220px; }
+	.logo-color-tile { width: 300px; }
+	.info-field { width: 29.5%; }
+	.textbutton.textbutton-skin-promo-bright-blue { width: 250px;margin-right: 10px; }
+
+}

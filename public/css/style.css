@@ -1,0 +1,60 @@
+
+
+.col-form-label{
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-group {
+      width: 90%;
+}
+
+.main-content-body{
+    padding: 20px;
+}
+.col-form-label span{
+    color: #d32f2f;
+}
+
+.btn-primary{
+    margin-left: 23%;
+}
+.btn-primary{
+    font-size: 16px;
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+.border-field{
+    border:  1px solid #dfe0e1;
+    width: 79%;
+    padding: 20px 0px 20px 0px;
+    margin-left: 11%;
+}
+.border-field .form-group{
+    width: 100%;
+}
+.field-name{
+    font-size: 0.8em;
+    color: #7b808c;
+    padding-bottom: 20px;
+  
+}
+.field-value{
+    font-size: 16px;
+}
+
+.table-responsive>.table-bordered {
+    border: 1;
+}
+
+.file input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+  }
+  .file {
+    position: relative;
+    overflow: hidden;
+  }
